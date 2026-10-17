@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home  Campus Events Guide</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <input type="checkbox" id="theme-toggle" class="theme-toggle">
+
+  <div class="page">
+    <header class="site-header">
+      <div class="container header-inner">
+        <p class="site-name">Campus Events Guide</p>
+        <nav class="main-nav" aria-label="Main navigation">
+          <ul class="nav-list">
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="event-details.html">Event Details</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+          <li><a href="registration.html">Register</a></li>
+          </ul>
+        </nav>
+        <!--dark mode but it will not work across the page as there is no java script -->
+        <label for="theme-toggle" class="toggle-label">Dark mode</label>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <h1>Discover Campus Events</h1>
+        <p>Campus Events Guide helps students find events, read the details, check the timetable and register in one place.</p>
+        <a class="btn" href="registration.html">Register now</a>
+      </section>
+
+      <section>
+        <h2>Featured events</h2>
+        <div class="card-grid">
+        <article class="event-card">
+          <img src="assets/poster-tech.svg" alt="Poster of Tech Innovation Day 2026">
+          <div class="card-body">
+            <span class="badge">Technology</span>
+            <h3>Tech Innovation Day 2026</h3>
+            <ul class="meta">
+              <li>12 December 2026</li>
+              <li> Zewail City</li>
+            </ul>
+            <a class="btn" href="event-details.html">View details</a>
+          </div>
+        </article>
+        <article class="event-card">
+          <img src="assets/poster-web.svg" alt="Poster of Web Dev Workshop">
+          <div class="card-body">
+            <span class="badge">Workshop</span>
+            <h3>Web Dev Workshop</h3>
+            <ul class="meta">
+              <li>20 November 2026</li>
+              <li>Lab 3, Engineering Building</li>
+            </ul>
+            <a class="btn" href="event-details.html">View details</a>
+          </div>
+        </article>
+        <article class="event-card">
+          <img src="assets/poster-career.svg" alt="Poster of Career Fair">
+          <div class="card-body">
+            <span class="badge">Career</span>
+            <h3>physics</h3>
+            <ul class="meta">
+              <li>5 January 2027</li>
+              <li>Campus </li>
+            </ul>
+            <a class="btn" href="event-details.html">View details</a>
+          </div>
+        </article>
+        </div>
+      </section>
+    </main>
+<!-- footer that will be constant across the pages and i used _blank to make the link open in new page -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>&copy; 2026 campus events Guide</p>
+        <ul class="social-list">
+          <li><a href="https://facebook.com" target="_blank" rel="noopener">facebook</a></li>
+          <li><a href="https://instagram.com" target="_blank" rel="noopener">instagram</a></li>
+          <li><a href="https://linkedin.com" target="_blank" rel="noopener">linkedin</a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
